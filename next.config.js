@@ -1,8 +1,13 @@
 /** @type {import('next').NextConfig} */
 
 module.exports = {
-    images: {
-      domains: ['media.stage.in'],
-    },
+    images: {      
+      remotePatterns: [
+        {
+          protocol: 'https',
+          hostname: 'media.stage.in',          
+        }
+      ]
+    }
   }
 

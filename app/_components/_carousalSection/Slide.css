@@ -10,6 +10,8 @@
     position: relative;
     display: none;
     width: 100vw;
+    height: 40vh;
+    cursor: pointer;  
   }
   
 .slide.active {
@@ -19,12 +21,6 @@
     
   }
   
-  .imageWidth {
-    max-width: 100%;
-    width: 100%;
-    height: 40vh;
-  }
-  
   .slide span {
     position: absolute;
     left: 50%;
@@ -32,3 +28,9 @@
     transform: translateX(-50%);
     color: #fff;
   }
+
+  @media screen and (max-width: 1024px) {
+    .slide {
+      height: 30vh;
+   }   
+}

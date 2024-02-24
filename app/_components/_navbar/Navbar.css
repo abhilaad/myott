@@ -1,0 +1,29 @@
+.navContainer{
+    display: flex;
+     width: 100%;
+    justify-content: space-between;
+    margin-top: 10px
+}
+.navTitle{
+    font-size:30px;
+    font-weight:800;
+    cursor: pointer;
+}
+.navButton{
+    width: 6rem;
+    height: 2rem;
+    padding: 4px 10px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.navSearch{
+    width: 5rem;
+    height: 2rem;
+    padding: 4px 15px 4px 20px;
+    cursor: pointer;
+    /* color: white; */
+}
