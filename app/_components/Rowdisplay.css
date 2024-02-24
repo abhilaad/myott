@@ -1,0 +1,17 @@
+.pDiv1 {
+    display: flex;
+    overflow-x: auto;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
+.pDiv1::-webkit-scrollbar {
+    display: none;
+} 
+
+.rowDisplayContainer {
+    width:100%;
+    padding: 10px;
+}
+.rowTitle {
+    padding: 20px 0px;
+}
