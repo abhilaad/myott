@@ -1,7 +1,6 @@
 "use client"
 import React, { useEffect, useState } from 'react'
 import RowCard from './RowCard'
-import "./RowDisplay.css"
 
 export const RowDisplay = ({ rowData, rowBaseUrl, index }) => {
     console.log("abhii row", rowData)
