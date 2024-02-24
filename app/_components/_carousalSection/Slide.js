@@ -5,7 +5,7 @@ export const Slide = ({ data, active, baseUrl }) => {
         
     return (
       <div className={`slide  ${active ? "active" : ""}`}>       
-        <Image src={imageUrl} alt={"photo"} layout="fill" />                
+        <Image src={imageUrl} alt={"photo"} layout="fill" priority />                
       </div>
     );
   };
