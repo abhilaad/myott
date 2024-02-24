@@ -12,9 +12,9 @@ export const RowDisplay = ({ rowData, rowBaseUrl, horizontalBaseUrl, index }) =>
                 </div>
                 <div className={"pDiv1"}>
                     {rowData?.length > 0 ? <>
-                        {rowData?.map((item) => {
+                        {rowData?.map((item,ind) => {
                             return (
-                                <RowCard item={item} key={item?._id + "r"} rowBaseUrl={rowBaseUrl} horizontalBaseUrl={horizontalBaseUrl} />
+                                <RowCard item={item} key={item?._id + "r"} rowBaseUrl={rowBaseUrl} horizontalBaseUrl={horizontalBaseUrl} index={index} childIndex={ind} />
                             );
                         })}
                     </> : <div>{noData}</div>
